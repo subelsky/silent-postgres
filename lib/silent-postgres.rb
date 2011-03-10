@@ -1,5 +1,3 @@
-if Rails.env.development? || Rails.env.test?
-
   require "silent-postgres/railtie"
   require "silent-postgres/schema_plus"
 
@@ -28,6 +26,3 @@ if Rails.env.development? || Rails.env.test?
       METHOD
     end
   end
-
-end
-
